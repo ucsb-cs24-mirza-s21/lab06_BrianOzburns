@@ -11,6 +11,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+
     if (argc < 2) {
         cout << "usage: " << argv[0] << " test#\n";
         return 1;
@@ -75,7 +76,22 @@ int main(int argc, char *argv[]) {
     }
     cout << "PASSED\n";
 
-        
+
+/*
+    Heap h;
+    int numvals = 20;
+    h.push(5);
+    h.push(4);
+    h.push(1);
+    h.push(2);
+    h.push(7);
+    h.push(5);
+    h.pop();
+    h.pop();
+    h.print();
+*/
+
+
     return 0;
 
 }
